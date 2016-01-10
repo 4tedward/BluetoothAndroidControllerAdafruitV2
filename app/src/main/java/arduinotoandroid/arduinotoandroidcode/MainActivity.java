@@ -27,9 +27,11 @@ public class MainActivity extends Activity implements OnClickListener {
     private BluetoothAdapter mBluetoothAdapter = null;
     private BluetoothSocket btSocket = null;
     private OutputStream outStream = null;
-    private static final UUID MY_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
-    private static String address = "98:D3:31:80:7C:8B";
     private final static int REQUEST_ENABLE_BT = 1;
+    private static final UUID MY_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
+
+    //your bluetooth sensor's address here
+    private static String address = "98:D3:31:80:7C:8B";
 
     @Bind(R.id.verticalSeekbarLeft)
     VerticalSeekBar mVerticalSeekbarLeft;
