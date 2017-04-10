@@ -31,7 +31,7 @@ public class MainActivity extends Activity implements OnClickListener {
     private static final UUID MY_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
 
     //your bluetooth sensor's address here
-    private static String address = "98:D3:31:80:7C:8B";
+    private static String address = "98:D3:32:30:A6:94";
 
     @Bind(R.id.verticalSeekbarLeft)
     VerticalSeekBar mVerticalSeekbarLeft;
